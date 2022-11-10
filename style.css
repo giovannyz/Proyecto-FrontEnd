@@ -1,0 +1,17 @@
+
+#logo{
+    height: 70px;
+    
+}
+#imagen{
+    height: 201px;
+}
+#promociones{
+    text-align: center;
+}
+@media (min-width: 720px) {
+    
+    #imagen{
+        height: 600px;
+    }
+}
