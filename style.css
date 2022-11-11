@@ -9,9 +9,36 @@
 #promociones{
     text-align: center;
 }
+
+ #precio{
+ 
+   text-align: right;
+   font-size: 50px;
+   font-weight: 300px;
+   
+}
+/* @media (max-width: 720px) {
+    
+    #imagen{
+        height: 219px;
+    }
+} */
 @media (min-width: 720px) {
     
     #imagen{
-        height: 600px;
+        height: 425px;
+    }
+}
+@media (min-width: 1420px) {
+    
+    #imagen{
+        height: 800px;
+    }
+}
+
+@media (min-width: 1520px) {
+    
+    #imagen{
+        height: 1070px;
     }
 }
