@@ -1,6 +1,6 @@
 
 #logo{
-    height: 70px;
+    height: 45px;
     
 }
 #imagen{
@@ -43,5 +43,11 @@
     }
 }
 
-/*--DELIVERY--*/
+/*--CARD--*/
 
+#navbar{
+    
+}
+.card-info{
+    height: 200px;
+}

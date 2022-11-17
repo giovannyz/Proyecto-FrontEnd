@@ -16,7 +16,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top" id="navbar">
       <div class="container-fluid">
         <img
           src="./resource/logo-sala3-corte2.png"
@@ -123,8 +123,9 @@
                 class="card-img-top"
                 style="height: 180px"
               />
-              <div class="card-body">
+              <div class="card-body" id="card-size">
                 <h5 class="card-title text-dark">hamburguesa con queso</h5>
+                <div class="card-info">
                 <p>
                   <ul>
                     <li>Queso</li>
@@ -134,8 +135,10 @@
                   </ul>
                   Incluye porcion de papa y gaseosa.
                 </p>
+              </div>
                 <h1 class="card-text text-light" id="precio">10 soles</h1>
                 <a href="" class="btn btn-primary w-100"> Comprar</a>
+              
               </div>
             </div>
           </div>
@@ -148,8 +151,9 @@
                 class="card-img-top"
                 style="height: 180px"
               />
-              <div class="card-body">
+              <div class="card-body" >
                 <h5 class="card-title text-dark">Mega Hamburguesa</h5>
+                <div class="card-info">
                 <p>
                   <ul>
                     <li>Doble carne a la parrilla</li>
@@ -158,6 +162,7 @@
                     Incluye tocino y porcion de papas
                   </ul>
                 </p>
+              </div>
                 <h1 class="card-text text-light" id="precio">12 soles</h1>
                 <a href="" class="btn btn-primary w-100"> Comprar</a>
               </div>
@@ -174,6 +179,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title text-dark">Hamburguesa Vegana</h5>
+                <div class="card-info">
                 <p>
                   <ul>
                     <li>Tomate</li>
@@ -182,6 +188,7 @@
                     Imitacion de carne, no notaras la diferencia.
                   </ul>
                 </p>
+              </div>
                 <h1 class="card-text text-light" id="precio">15 soles</h1>
                 <a href="" class="btn btn-primary w-100"> Comprar</a>
               </div>
@@ -198,6 +205,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title text-dark">Hamburguesa ranchera</h5>
+                <div class="card-info">
                 <p>
                   <ul>
                     <li>Chorizo</li>
@@ -206,6 +214,7 @@
                     La hamburguesa ranchera es la mas abundante en proteína.
                   </ul>
                 </p>
+              </div>
                 <h1 class="card-text text-light" id="precio">18 soles</h1>
                 <a href="" class="btn btn-primary w-100"> Comprar</a>
               </div>
@@ -221,14 +230,18 @@
                 style="height: 180px"
               />
               <div class="card-body">
-                <h5 class="card-title text-dark">Hamburguesa</h5>
+                <h5 class="card-title text-dark">Hamburguesa extra huevo</h5>
+                <div class="card-info">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Error, velit molestiae. Maiores deserunt nam labore voluptate,
-                  fugit alias nobis inventore suscipit quam rerum similique
-                  molestias quae perspiciatis, tenetur excepturi consequuntur.
+                  <ul>
+                    <li>Chorizo</li>
+                    <li>Extra Huevo</li>
+                    <li>Queso</li>
+                    Esta hamburguesa contiene mas carne y 2 huevos extras(incluye porcion de papas).
+                  </ul>
                 </p>
-                <h1 class="card-text text-light" id="precio">58 soles</h1>
+              </div>
+                <h1 class="card-text text-light" id="precio">10 soles</h1>
                 <a href="" class="btn btn-primary w-100"> Comprar</a>
               </div>
             </div>
@@ -243,14 +256,18 @@
                 style="height: 180px"
               />
               <div class="card-body">
-                <h5 class="card-title text-dark">Hamburguesa</h5>
+                <h5 class="card-title text-dark">Hamburguesa Jamon</h5>
+                <div class="card-info">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Error, velit molestiae. Maiores deserunt nam labore voluptate,
-                  fugit alias nobis inventore suscipit quam rerum similique
-                  molestias quae perspiciatis, tenetur excepturi
+                  <ul>
+                    <li>Jamon extra</li>
+                    <li>Tocineta</li>
+                    <li>Queso</li>
+                    La hamburguesa con jamon incluye extra su porcion de papas fritas
+                  </ul>
                 </p>
-                <h1 class="card-text text-light" id="precio">58 soles</h1>
+              </div>
+                <h1 class="card-text text-light" id="precio">10 soles</h1>
                 <a href="" class="btn btn-primary w-100"> Comprar</a>
               </div>
             </div>
@@ -329,11 +346,11 @@
               <h6 class="text-uppercase fw-bold mb-4">Locales</h6>
               <p>
                 <i class="fas fa-home me-3 text-secondary"></i> Direccion:
-                Javier prado 220 xxxx
+                EEUU New York
               </p>
               <p>
                 <i class="fas fa-envelope me-3 text-secondary"></i>
-                info@example.com
+                Sala03@gmail.com
               </p>
               <p>
                 <i class="fas fa-phone me-3 text-secondary"></i> + 51 999666501
@@ -351,7 +368,7 @@
               </p>
               <p>
                 <i class="fas fa-envelope me-3 text-secondary"></i>
-                info@example.com
+                Sala03@gmail.com
               </p>
               <p>
                 <i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88
