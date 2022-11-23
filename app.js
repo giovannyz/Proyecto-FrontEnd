@@ -1,16 +1,6 @@
 const btnConfirmar = document.querySelector("#btn-confirmar")
 const btnCancelar = document.querySelector("#btn-cancelar")
 
-/*BOTONES CARTA*/
-const btnAgregar1=document.querySelector("#agregar1")
-const btnAgregar2=document.querySelector("#agregar2")
-const btnAgregar3=document.querySelector("#agregar3")
-const btnAgregar4=document.querySelector("#agregar4")
-const btnAgregar5=document.querySelector("#agregar5")
-const btnAgregar6=document.querySelector("#agregar6")
-const btnAgregar7=document.querySelector("#agregar7")
-const btnAgregar8=document.querySelector("#agregar8")
-const btnAgregar9=document.querySelector("#agregar9")
 
 /*BOTONES PROMOCION*/
 
