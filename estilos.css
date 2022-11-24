@@ -1,0 +1,12 @@
+body{
+    background: #ff5f59;
+    background: linear-gradient(to right, #e62807af, rgba(238, 79, 6, 0.329));
+}
+
+
+.bg{
+    background-image: url(https://img.freepik.com/fotos-premium/amigos-vista-inferior-comiendo-hamburguesas_23-2148705580.jpg?w=2000);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
