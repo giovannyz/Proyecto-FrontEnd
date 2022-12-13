@@ -1,39 +1,81 @@
-
-const contador=document.getElementById("cont")
+ const contador=document.getElementById("cont");
+ const Clasica = document.getElementById("La-Clasica")
+ const precio = document.getElementById("precio1")
 const increase=document.getElementById("incr")
 const decrease=document.getElementById("decr")
 
+
+
+
 const contador2=document.getElementById("cont2")
+const Pollero = document.getElementById("Sandwich-pollero")
+const precio2 = document.getElementById("precio2")
 const increase2=document.getElementById("incr2")
 const decrease2=document.getElementById("decr2")
 
+
+
+
 const contador3=document.getElementById("cont3")
+const Salchichera = document.getElementById("Salchichera")
+const precio3 = document.getElementById("precio3")
 const increase3=document.getElementById("incr3")
 const decrease3=document.getElementById("decr3")
 
+
+
+
 const contador4=document.getElementById("cont4")
+const Chernobil = document.getElementById("El-Chernobil")
+ const precio4 = document.getElementById("precio4")
 const increase4=document.getElementById("incr4")
 const decrease4=document.getElementById("decr4")
 
+
+
+
 const contador5=document.getElementById("cont5")
+const Diablo = document.getElementById("El-hijo-del-Diablo")
+const precio5 = document.getElementById("precio5")
 const increase5=document.getElementById("incr5")
 const decrease5=document.getElementById("decr5")
 
+
+
+
 const contador6=document.getElementById("cont6")
+const Pollos = document.getElementById("Hamburguesa-Pollos-Hermanos")
+const precio6 = document.getElementById("precio6")
 const increase6=document.getElementById("incr6")
 const decrease6=document.getElementById("decr6")
 
+
+
 const contador7=document.getElementById("cont7")
+const Lover = document.getElementById("Burguer-Lover")
+const precio7 = document.getElementById("precio7")
 const increase7=document.getElementById("incr7")
 const decrease7=document.getElementById("decr7")
 
+
+
 const contador8=document.getElementById("cont8")
+const Choripan = document.getElementById("Choripan")
+const precio8 = document.getElementById("precio8")
 const increase8=document.getElementById("incr8")
 const decrease8=document.getElementById("decr8")
 
+
+
+
 const contador9=document.getElementById("cont9")
+const Carniboro = document.getElementById("Carniboro")
+const precio9 = document.getElementById("precio9")
 const increase9=document.getElementById("incr9")
 const decrease9=document.getElementById("decr9")
+
+
+
 
 //FUNCTION 
 
@@ -210,4 +252,10 @@ let numero9=0;
       }
   
   })
+
+
+
+   
+
+
 

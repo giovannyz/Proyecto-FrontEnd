@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+<!--CDN-ICON----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!------------------->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top" id="navbar">
+        <div class="container-fluid">
+
+            <img src="./resource/logo-sala3-corte2.png" class="rounded-circle m-2" id="logo">
+
+            <a href="./Pagos.html" style="color:lightyellow" ><i class="fa-solid fa-cart-shopping"></i></a>
+            <script>
+              
+            </script> 
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="./index.html">
+                  Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html"> Login </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carta</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+<!--CARTA------------->
+<div class="container-fluid bg-success">
+    <div class="row align-items-center" id="promociones">
+        <div class="col-6 pt-3 text-light">
+          <p>Carta</p>
+          <p>Ordenar ahora</p>
+        </div>
+        <div class="col-6 pt-3 text-light">
+          <i class="fi fi-brands-whatsapp"></i>
+          <p>978 958 958</p>
+        </div>
+        
+    </div>
+</div>
+    <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: <span id="total"></span></p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+        </div>
+    </div>
+
+    <!--FOOTER-------->
+    <footer class="text-center text-lg-start bg-dark text-muted ">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-evenly p-4 border-bottom text-light bg-secondary">
+          <!-- Left -->
+          <div class="me-5 d-flex d-lg-block">
+            <span>Conectate con nosotros en los siguientes:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 link-secondary ">
+              <img src="./resource/iconos/icon-facebook.svg" alt="">
+            </a>
+            <a href="" class="me-4 link-secondary ">
+              <img src="./resource/iconos/icon-instagram.svg" alt="">
+            </a>
+            <a href="" class="me-4 link-secondary ">
+              <img src="./resource/iconos/icon-pinterest.svg" alt="">
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <img src="./resource/iconos/icon-twitter.svg" alt="">
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5 text-light bg-">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>Sala 3
+                </h6>
+                <p>
+              Visitanos o llamanos cuando quieras. Nuestros locales estan abiertos las 24 horas.
+              <br>
+              <br>
+              Proximamente mas locales!
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+             
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Locales</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i> Direccion: EEUU New York</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  Sala03@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> + 51 999666501</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> + 51 999777555</p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Locales</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  Sala03@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href="https://salatres.com/">Sala-3</a>
+        </div>
+        <!-- Copyright -->
+        <div class="d-flex justify-content-center ">
+            <button class="btn btn-danger mb-4"><a href="#promociones" class="text-light" style="text-decoration: none;">Subir</a></button>
+          </div>
+      </footer>
+
+    
+
+    <script src="./carta2.js"></script>
+</body>
+</html>
