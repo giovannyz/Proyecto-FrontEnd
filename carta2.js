@@ -17,46 +17,46 @@
               },
               {
                   id: 3,
-                  nombre: 'Calabacin',
-                  precio: 2.1,
+                  nombre: 'Salchichera',
+                  precio: 15,
                   imagen: './resource/nuevaImagen/mediterranea.png'
                   
               },
               {
                   id: 4,
-                  nombre: 'Fresas',
-                  precio: 0.6,
+                  nombre: 'El Chernobil',
+                  precio: 17,
                   imagen: './resource/nuevaImagen/prueba3.png'
               },
               {
                 id: 5,
-                nombre: 'Peras',
-                precio: 0.6,
-                imagen: './resource/nuevaImagen/prueba5.png'
+                nombre: 'El hijo del Diablo',
+                precio: 16,
+                imagen: './resource/nuevaImagen/prueba (1).png'
             },
             {
                 id: 6,
-                nombre: 'Peras',
-                precio: 0.6,
-                imagen: './resource/nuevaImagen/prueba3.png'
+                nombre: 'Hamburguesa Pollos Hermanos',
+                precio: 15,
+                imagen: './resource/nuevaImagen/prueba5.png'
             },
             {
                 id: 7,
-                nombre: 'Peras',
-                precio: 0.6,
-                imagen: 'fresas.jpg'
+                nombre: 'Burguer Lover',
+                precio: 20,
+                imagen: './resource/nuevaImagen/cuadruple.png'
             },
             {
                 id: 8,
-                nombre: 'Peras',
-                precio: 0.6,
-                imagen: 'fresas.jpg'
+                nombre: 'Choripan',
+                precio: 16,
+                imagen: './resource/nuevaImagen/choriburguer.png'
             },
             {
                 id: 9,
-                nombre: 'Peras',
-                precio: 0.6,
-                imagen: 'fresas.jpg'
+                nombre: 'Carniboro',
+                precio: 20,
+                imagen: './resource/nuevaImagen/carnivoro.png'
             }
 
           ];
@@ -143,7 +143,7 @@
                   // Creamos el nodo del item del carrito
                   const miNodo = document.createElement('li');
                   miNodo.classList.add('list-group-item', 'text-right', 'mx-2');
-                  miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${miItem[0].precio}${divisa}`;
+                  miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${divisa}${miItem[0].precio}`;
                   // Boton de borrar
                   const miBoton = document.createElement('button');
                   miBoton.classList.add('btn', 'btn-danger', 'mx-5');
