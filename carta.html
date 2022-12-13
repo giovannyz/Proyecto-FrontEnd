@@ -17,8 +17,10 @@
 
             <img src="./resource/logo-sala3-corte2.png" class="rounded-circle m-2" id="logo">
 
-            <a href="./Pagos.html" style="color:lightyellow";><i class="fa-solid fa-cart-shopping"></i></a>
-            
+            <a href="./Pagos.html" style="color:lightyellow" id="carrito" onclick="preview('carrito')"><i class="fa-solid fa-cart-shopping"></i></a>
+            <script>
+              
+            </script> 
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -64,7 +66,7 @@
     <div class="card">
       <img class="card-img-top" src="./resource/hamburguesa.png" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">La Clasica</h5>
+        <h5 class="card-title" id="La-Clasica">La Clasica</h5>
         <p class="card-text">
           <div class="card-list" style=" height: 150px;">
           <ul>
@@ -81,7 +83,7 @@
         </div>
       </div>
       <div class="card-footer  d-flex justify-content-evenly align-items-center">
-        <h2>S/ 10</h2>
+        <h2 id="precio1">S/ 10</h2>
         <button class="btn btn-success" id="incr">+</button>
         <span id="cont">0</span>
         <button class="btn btn-danger" id="decr">-</button>
@@ -90,7 +92,7 @@
     <div class="card">
       <img class="card-img-top" src="./resource/cambio1.png" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Sandwich pollero</h5>
+        <h5 class="card-title" id="Sandwich-pollero">Sandwich pollero</h5>
         <p class="card-text">
             <div class="card-list" style=" height: 150px;">
           <ul>
@@ -108,7 +110,7 @@
       </div>
       </div>
       <div class="card-footer  d-flex justify-content-evenly align-items-center">
-        <h2>S/ 10</h2>
+        <h2 id="precio2">S/ 10</h2>
         <button class="btn btn-success" id="incr2">+</button>
         <span id="cont2">0</span>
         <button class="btn btn-danger" id="decr2">-</button>
@@ -117,7 +119,7 @@
     <div class="card">
       <img class="card-img-top" src="./resource/prueba2.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Salchichera</h5>
+        <h5 class="card-title" id="Salchichera">Salchichera</h5>
         <p class="card-text">
           <div class="card-list" style="height: 150px;">
           <ul>
@@ -134,7 +136,7 @@
         </div>
       </div>
       <div class="card-footer  d-flex justify-content-evenly align-items-center">
-        <h2>S/ 15</h2>
+        <h2 id="precio3">S/ 15</h2>
         <button class="btn btn-success" id="incr3">+</button>
         <span id="cont3">0</span>
         <button class="btn btn-danger" id="decr3">-</button>
@@ -146,7 +148,7 @@
     <div class="card">
         <img class="card-img-top" src="./resource/prueba3.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">El Chernobil</h5>
+          <h5 class="card-title" id="El-Chernobil">El Chernobil</h5>
           <p class="card-text">
             <div class="card-list" style="height: 150px;">
             <ul>
@@ -165,7 +167,7 @@
 
         </div>
         <div class="card-footer  d-flex justify-content-evenly align-items-center">
-          <h2>S/ 17</h2>
+          <h2 id="precio4">S/ 17</h2>
           <button class="btn btn-success" id="incr4">+</button>
           <span id="cont4">0</span>
           <button class="btn btn-danger" id="decr4">-</button>
@@ -174,7 +176,7 @@
       <div class="card">
         <img class="card-img-top" src="./resource/prueba 4.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">El hijo del Diablo</h5>
+          <h5 class="card-title" id="El-hijo-del-Diablo">El hijo del Diablo</h5>
           <p class="card-text">
             <div class="card-list" style="height: 150px;">
             <ul>
@@ -192,7 +194,7 @@
         </div>
         </div>
         <div class="card-footer  d-flex justify-content-evenly align-items-center">
-          <h2>S/ 16</h2>
+          <h2 id="precio5">S/ 16</h2>
           <button class="btn btn-success" id="incr5">+</button>
           <span id="cont5">0</span>
           <button class="btn btn-danger" id="decr5">-</button>
@@ -201,7 +203,7 @@
       <div class="card">
         <img class="card-img-top" src="./resource/prueba5.png" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Hamburguesa Pollos Hermanos</h5>
+          <h5 class="card-title" id="Hamburguesa-Pollos-Hermanos">Hamburguesa Pollos Hermanos</h5>
           <p class="card-text">
             <div class="card-list" style="height: 150px;">
             <ul>
@@ -218,7 +220,7 @@
         </div>
         </div>
         <div class="card-footer  d-flex justify-content-evenly align-items-center">
-          <h2>S/ 15</h2>
+          <h2 id="precio6">S/ 15</h2>
           <button class="btn btn-success" id="incr6">+</button>
           <span id="cont6">0</span>
           <button class="btn btn-danger" id="decr6">-</button>
@@ -230,7 +232,7 @@
     <div class="card">
         <img class="card-img-top" src="./resource/cuadruple.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Burguer Lover</h5>
+          <h5 class="card-title" id="Burguer-Lover">Burguer Lover</h5>
           <p class="card-text">
             <div class="card-list" style="height: 150px;">
             <ul>
@@ -247,7 +249,7 @@
         </div>
         </div>
         <div class="card-footer  d-flex justify-content-evenly align-items-center">
-          <h2>S/ 20</h2>
+          <h2 id="precio7">S/ 20</h2>
           <button class="btn btn-success" id="incr7">+</button>
           <span id="cont7">0</span>
           <button class="btn btn-danger" id="decr7">-</button>
@@ -256,7 +258,7 @@
       <div class="card">
         <img class="card-img-top" src="./resource/choriburguer.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Choripan</h5>
+          <h5 class="card-title" id="Choripan">Choripan</h5>
           <p class="card-text">
             <div class="card-list" style="height: 150px;">
             <ul>
@@ -273,7 +275,7 @@
         </div>
         </div>
         <div class="card-footer  d-flex justify-content-evenly align-items-center">
-          <h2>S/ 16</h2>
+          <h2 id="precio8">S/ 16</h2>
           <button class="btn btn-success" id="incr8">+</button>
           <span id="cont8">0</span>
           <button class="btn btn-danger" id="decr8">-</button>
@@ -282,7 +284,7 @@
       <div class="card">
         <img class="card-img-top" src="./resource/carnivoro.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Carniboro</h5>
+          <h5 class="card-title" id="Carniboro">Carniboro</h5>
           <p class="card-text">
             <div class="card-list" style="height: 150px;">
             <ul>
@@ -300,7 +302,7 @@
         </div>
         </div>
         <div class="card-footer  d-flex justify-content-evenly align-items-center">
-          <h2>S/ 20</h2>
+          <h2 id="precio9">S/ 20</h2>
           <button class="btn btn-success" id="incr9">+</button>
           <span id="cont9">0</span>
           <button class="btn btn-danger" id="decr9">-</button>
@@ -408,6 +410,7 @@
       </footer>
 
       <script src="./carta.js"></script>
+     
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 

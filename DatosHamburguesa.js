@@ -1,5 +1,7 @@
 /*ARRAY DE OBJETOS CON DATOS DE HAMBURGUESA*/
 
+
+
 const hamburguesa=[{
     name:"hamburguesa 1",
     precio:15,
@@ -31,3 +33,5 @@ const hamburguesa=[{
   }
   ]
   console.log(hamburguesa)
+
+
