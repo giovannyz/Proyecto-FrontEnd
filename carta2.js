@@ -6,38 +6,39 @@
                   id: 1,
                   nombre: 'La clasica',
                   precio: 10,
-                  imagen: './resource/hamburguesa.png',
+                  imagen: './resource/nuevaImagen/hamburguesa.png',
 
               },
               {
                   id: 2,
                   nombre: 'Sandwich pollero',
                   precio: 10,
-                  imagen: './resource/burger6.png'
+                  imagen: './resource/nuevaImagen/burger6.png'
               },
               {
                   id: 3,
                   nombre: 'Calabacin',
                   precio: 2.1,
-                  imagen: 'calabacin.jpg'
+                  imagen: './resource/nuevaImagen/mediterranea.png'
+                  
               },
               {
                   id: 4,
                   nombre: 'Fresas',
                   precio: 0.6,
-                  imagen: 'fresas.jpg'
+                  imagen: './resource/nuevaImagen/prueba3.png'
               },
               {
                 id: 5,
                 nombre: 'Peras',
                 precio: 0.6,
-                imagen: 'fresas.jpg'
+                imagen: './resource/nuevaImagen/prueba5.png'
             },
             {
                 id: 6,
                 nombre: 'Peras',
                 precio: 0.6,
-                imagen: 'fresas.jpg'
+                imagen: './resource/nuevaImagen/prueba3.png'
             },
             {
                 id: 7,
@@ -76,7 +77,7 @@
               baseDeDatos.forEach((info) => {
                   // Estructura
                   const miNodo = document.createElement('div');
-                  miNodo.classList.add('card', 'col-sm-4');
+                  miNodo.classList.add('card', 'col-lg-4','col-md-6','col-sm-12');
                   // Body
                   const miNodoCardBody = document.createElement('div');
                   miNodoCardBody.classList.add('card-body');
