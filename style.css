@@ -10,14 +10,6 @@
     text-align: center;
 }
 
- #precio{
- 
-   text-align: right;
-   font-size: 50px;
-   font-weight: 300px;
-   
-   
-}
 /* @media (max-width: 720px) {
     
     #imagen{
@@ -44,8 +36,22 @@
     }
 }
 
-/*--CARD--*/
+/*-----------CARD------------*/
 
-.card-parrafo{
-    height: 180px;
+.card-list{
+    height: 150px;
 }
+
+.card-description{
+    height: 60px;
+}
+
+.card-price{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+
+/*------------------*/
