@@ -1,28 +1,9 @@
-const btnConfirmar = document.querySelector("#btn-confirmar")
-const btnCancelar = document.querySelector("#btn-cancelar")
-
-
-/*BOTONES PROMOCION*/
-
-const btnPromocion1=document.querySelector("#comprar1")
-const btnPromocion2=document.querySelector("#comprar2")
-const btnPromocion3=document.querySelector("#comprar3")
-const btnPromocion4=document.querySelector("#comprar4")
-const btnPromocion5=document.querySelector("#comprar5")
-const btnPromocion6=document.querySelector("#comprar6")
-
-/* boton */
-
-const hamburguesa=[{
-  name:"papas",
-  precio:15,
-
-},{
-  name:"chorizo",
-  precio:20
-}
-]
-console.log(hamburguesa[0])
+const btnConfirmar = document.querySelector("#btn-confirmar");
+const btnCancelar = document.querySelector("#btn-cancelar");
+const nombre = document.getElementsByName("nombre");
+const apellido = document.getElementsByName("apellido");
+const direccion = document.getElementsByName("direccion");
+const telefono = document.getElementsByName("telefono")
 
 btnConfirmar.addEventListener("click",function(){
     
@@ -31,7 +12,8 @@ btnConfirmar.addEventListener("click",function(){
         text: "Su pedido estara listo entre 10 a 15mts",
         icon: "success",
 
-  })
+  });
+  
 })
 
 btnCancelar.addEventListener("click",function(){
@@ -49,8 +31,34 @@ btnCancelar.addEventListener("click",function(){
           Swal.fire({
             title:"Pedido Cancelado",
             icon:"success"
-          }
+          },
+          localStorage.clear()
           )
         }
       })
 })
+
+
+btnConfirmar.onclick = function (event){
+ 
+ 
+  const inputs = document.querySelectorAll('input')
+  // inserta una claor o almacenar al localstorage 
+ 
+  inputs.forEach((input)=>{
+      
+     console.log(inputs)
+     localStorage.setItem(input.name , input.value)
+  })
+ login() 
+ 
+ }
+ function login(){
+  const nombre2 =localStorage.getItem('nombre');
+  const apellido2 =localStorage.getItem('apellido');
+  const direccion2 =localStorage.getItem('direccion');
+  const telefono2 =localStorage.getItem('telefono');
+  
+  
+  console.log(nombre2,apellido2,direccion2,telefono2);
+ }
