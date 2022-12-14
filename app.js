@@ -60,5 +60,5 @@ btnConfirmar.onclick = function (event){
   const telefono2 =localStorage.getItem('telefono');
   
   
-  console.log(nombre2,apellido2,direccion2,telefono2);
+  console.log("Nombre: "+nombre2, "Apellido: "+apellido2,"direccion: "+ direccion2,"telefono: "+telefono2);
  }
