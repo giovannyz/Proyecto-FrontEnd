@@ -1,11 +1,8 @@
 const productos = document.getElementById("productos")
+const api_promo='https://proyectobackend-gm2x.onrender.com/productos?page=1&per_page=9&category_id=1'
 
 function agregarProductos() {
-    fetch('http://127.0.0.1:5000/productos?page=1&per_page=5', {
-        headers: {
-            'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY3ODQwODkxMywianRpIjoiMGE4ZGJhZTYtY2JmMi00ODdiLWE1MzgtZDhhNTYzOGIxNzE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjc4NDA4OTEzLCJleHAiOjE2Nzg0MTI1MTN9.hXmm1ZkSR1BbBhNOqixceOSB42vWPZXYsCe8IXIcGWA'
-        }
-    })
+    fetch(api_promo)
         .then((response) => response.json())
         .then((json) => {
             const results = json.results
